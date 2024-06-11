@@ -21,7 +21,6 @@ class SuperHero:
         return len(self.catchphrase)
 
 
-# Создание объекта класса SuperHero и применение методов
 hero = SuperHero("Bruce Wayne", "Batman", "Intelligence and gadgets", 100, "I'm Batman!")
 hero.display_name()
 hero.double_health()
